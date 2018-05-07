@@ -8,11 +8,11 @@ myBalance = '0.01'  # User balance
 entReq = '0.001'
 # randomDice = random.randint(0, 1)
 print('###### WELCOME TO CRYPTO BITCOIN DICE GAME ###########')
-print('Support us by donating some btc to develop this bot more with web interface')
+print('Support us by donating BTC to develop dice bot more with graphical interface')
 print('1GAN8kbtkPuLV2srrtLiAaikmqj21Q2wXF') # Donation BTC address
 print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
-print('Your current balance is '),
-print(myBalance),
+print('Your current balance is ', end='')
+print(myBalance, end=' '),
 print('BTC')
 
 
@@ -53,16 +53,16 @@ def game(crypto):
 
 def newTry(btcTrue):
     subprocess.call(['clear'])
-    print('Your new balance is'),
-    print(btcTrue),
+    print('Your new balance is', end='')
+    print(btcTrue, end=' ')
     print('BTC')
     game(btcTrue)
 
 
 def newTryfail(btcFail):
     subprocess.call(['clear'])
-    print('Your new balance is'),
-    print(btcFail),
+    print('Your new balance is', end='')
+    print(btcFail, end=' '),
     print('BTC')
     chkBal(btcFail)
 
