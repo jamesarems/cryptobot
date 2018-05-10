@@ -1,0 +1,11 @@
+#Dice start program
+import os
+print('Welcome to Crypto Dice Game - Alpha')
+print('Select your Operating system:(windows/linux)')
+osSelect = input() ##User input
+if osSelect == 'windows':
+    os.system('python crypto_dice_win.py') #Redirect to windows settings
+elif osSelect == 'linux':
+    os.system('python crypto_dice.py') #Redirect to linux
+else:
+    print('Typo error')
