@@ -4,9 +4,9 @@ print('Welcome to Crypto Dice Game - Alpha')
 print('Select your Operating system:(windows/linux)')
 osSelect = input() ##User input
 if osSelect == 'windows':
-    os.system('python crypto_dice_win.py') #Redirect to windows settings
+    os.system('python script/crypto_dice_win.py') #Redirect to windows settings
 elif osSelect == 'linux':
-    os.system('python crypto_dice.py') #Redirect to linux
+    os.system('python script/crypto_dice.py') #Redirect to linux
 elif osSelect == 'exit':
     exit()
 else:
