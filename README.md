@@ -11,6 +11,10 @@
 
 Next Feature as per user request.
 
+# To make a test
+
+python dice.py
+
 # Contributers
 
 Contributers are welcome for this project, its a fully opensource project
