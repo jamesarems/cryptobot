@@ -40,7 +40,7 @@ def game(crypto):
         #print(userDice)
         if userDice == 'exit':
                 exitPrg()
-	elif float(userDice) == float(randomDice):
+        elif float(userDice) == float(randomDice):
             print('You Won!')
             newBal = str(float(crypto) + float(0.001))
             newTry(newBal)
@@ -67,6 +67,6 @@ def newTryfail(btcFail):
     chkBal(btcFail)
 
 def exitPrg():
-	print('Dont worry, we all humens are facing this problem..be a programmer and hire a good job and make money man. Then come here.')
+    print('Dont worry, we all humens are facing this problem..be a programmer and hire a good job and make money man. Then come here.')
 
 chkBal(myBalance)
