@@ -1,9 +1,10 @@
 # Crypto dice program
 import random
 import subprocess
-import sys
+#import sys
+import os
 
-#subprocess.call(['clear'])
+os.system('cls')
 myBalance = '0.01'  # User balance
 entReq = '0.001'
 # randomDice = random.randint(0, 1)
@@ -17,7 +18,7 @@ print('BTC')
 
 
 def chkBal(btc):
-    #subprocess.call(['clear'])
+    os.system('cls')
     print('Checking your eligibility')
     #print('###Debug btc', btc)
     if btc < entReq:
@@ -52,16 +53,16 @@ def game(crypto):
 
 
 def newTry(btcTrue):
-    #subprocess.call(['clear'])
-    print('Your new balance is', end='')
+    os.system('cls')
+    print('Your new balance is ', end='')
     print(btcTrue, end=' ')
     print('BTC')
     game(btcTrue)
 
 
 def newTryfail(btcFail):
-    #subprocess.call(['clear'])
-    print('Your new balance is', end='')
+    os.system('cls')
+    print('Your new balance is ', end='')
     print(btcFail, end=' '),
     print('BTC')
     chkBal(btcFail)
