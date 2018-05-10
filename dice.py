@@ -7,5 +7,8 @@ if osSelect == 'windows':
     os.system('python crypto_dice_win.py') #Redirect to windows settings
 elif osSelect == 'linux':
     os.system('python crypto_dice.py') #Redirect to linux
+elif osSelect == 'exit':
+    exit()
 else:
     print('Typo error')
+    os.system('python dice.py')
