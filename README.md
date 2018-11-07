@@ -5,9 +5,9 @@
 
 2st Quarter 2018 - Dice game alpha for Linux and windows using CLI (btc only).
 
-3rd Quarter 2018 - Gui based dice game with more crypto coin selection.
+3rd Quarter 2019 - Gui based dice game with more crypto coin selection.
 
-4th Quarter 2018 - Attach Gui and CLI based dice game to mongodb. 
+4th Quarter 2020 - Attach Gui and CLI based dice game to mongodb. 
 
 Next Feature as per user request.
 
